@@ -1,0 +1,21 @@
+//
+//  NewsReader-Prefix.pch
+//  NewsReader
+//
+//  Created by zhuzhu on 16/1/14.
+//  Copyright © 2016年 zhuzhu. All rights reserved.
+//
+#import <Availability.h>
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+//#import "FxGlobal.h"
+#import "Defines.h"
+#import "URLDefine.h"
+#import "FxJsonUtility.h"
+//#import "FxFileUtility.h"
+//#import "FxStatis.h"
+
+#endif
